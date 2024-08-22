@@ -14,7 +14,7 @@ System.out.println(s);
 
 
 
-------------------
+---------------------------------------------------------------------------------------------------
 
 import java.util.Scanner;
 public class ScannerInts{
@@ -26,7 +26,7 @@ int number = siuuuuu.nextInt();
 System.out.println(number);
 }
 }
-------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------
  
 
 import java.util.Scanner;
@@ -75,6 +75,45 @@ System.out.println("GPA: " + myGPA);
 System.out.println("Que quan: " + myHome);
 
 
+
+
+
+}
+}
+
+---------------------------------------------------------------------------------------------------------------------
+import java.util.Scanner;
+public class ScannerInts{
+public static void main(String args[]){
+    
+Scanner siuuuuu = new Scanner(System.in);
+
+System.out.print("Nhap ten : ");
+if (siuuuuu.hasNext ()) {
+    String myName = siuuuuu.nextLine();
+    System.out.println("Day la chuoi. Ten:" +myName);
+} else {
+    System.out.println("Khong phai chuoi");
+}
+
+
+
+
+
+
+System.out.print("Nhap tuoi : ");
+int myAge = siuuuuu.nextInt();
+siuuuuu.nextLine();
+
+
+
+
+
+
+System.out.println("\n");
+
+System.out.println("Ten:" + myName);
+System.out.println("TUoi: " + myAge);
 
 
 
