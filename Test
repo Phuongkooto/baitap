@@ -26,3 +26,57 @@ int number = siuuuuu.nextInt();
 System.out.println(number);
 }
 }
+------------------------------------------------
+ 
+
+import java.util.Scanner;
+public class ScannerInts{
+public static void main(String args[]){
+    
+Scanner siuuuuu = new Scanner(System.in);
+
+System.out.print("Nhap ten : ");
+String myName = siuuuuu.nextLine();
+
+
+
+System.out.print("Nhap tuoi : ");
+int myAge = siuuuuu.nextInt();
+siuuuuu.nextLine();
+System.out.print("Nhap chuyen Nganh : ");
+String myMajor = siuuuuu.nextLine();
+
+System.out.print("Nhap nam sinh : ");
+int myBorn = siuuuuu.nextInt();
+siuuuuu.nextLine();
+
+System.out.print("Nhap gioi tinh : ");
+String myGender = siuuuuu.nextLine();
+
+
+
+System.out.print("Nhap GPA : ");
+float myGPA = siuuuuu.nextFloat();
+siuuuuu.nextLine();
+
+
+System.out.print("Nhap QUe Quan : ");
+String myHome = siuuuuu.nextLine();
+
+
+System.out.println("\n"     );
+
+System.out.println("Ten:" + myName);
+System.out.println("TUoi: " + myAge);
+System.out.println("Nam sinh: " + myBorn);
+System.out.println("GIoi tinh: " + myGender);
+System.out.println("Chuyen nganh: " + myMajor);
+System.out.println("GPA: " + myGPA);
+System.out.println("Que quan: " + myHome);
+
+
+
+
+
+}
+}
