@@ -1,0 +1,26 @@
+import java.util.Random;
+import java.util.Scanner;
+
+public class XoSo {
+    public static void main(String[] args) {
+        
+        Random random = new Random();
+        Scanner scanner = new Scanner(System.in);
+        
+        System.out.print(" Enter the Count of number in Lottery( Less than 100) : ");
+        int sL = scanner.nextInt();
+        
+        
+        if (sL < 1 || sL > 100) {
+            System.out.println("Nhap lai di.");
+            return;
+        } 
+        
+        int soXoSo = random.nextInt(100) + 1; 
+        
+        System.out.println("Your number lottery: " + soXoSo);
+        
+       
+    
+}
+}
